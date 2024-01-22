@@ -1,0 +1,34 @@
+CREATE DATABASE VietnamHighschoolExam;
+
+USE VietnamHighschoolExam;
+
+CREATE TABLE SchoolYear (
+  Id INT PRIMARY KEY Identity,
+  Name VARCHAR(50),
+  ExamYear INT,
+  Status BIT
+);
+
+CREATE TABLE Subject (
+  Id INT PRIMARY KEY Identity,
+  Code VARCHAR(10),
+  Name VARCHAR(50)
+);
+
+
+CREATE TABLE Student (
+  Id INT PRIMARY KEY Identity,
+  StudentCode VARCHAR(10),
+  SchoolYearId INT,
+  FOREIGN KEY (SchoolYearId) REFERENCES SchoolYear(Id),
+  Status BIT
+);
+
+CREATE TABLE Score (
+  Id INT PRIMARY KEY Identity,
+  StudentId INT,
+  FOREIGN KEY (StudentId) REFERENCES Student(Id),
+  SubjectId INT,
+  FOREIGN KEY (SubjectId) REFERENCES Subject(Id),
+  Score FLOAT
+);

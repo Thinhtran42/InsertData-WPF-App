@@ -1,0 +1,17 @@
+﻿<Window x:Class="AppThongKeDiemLmao_2._0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppThongKeDiemLmao_2._0"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ComboBox x:Name="cbSelectYear" HorizontalAlignment="Left" Margin="216,53,0,0" VerticalAlignment="Top" Width="298"/>
+        <Button x:Name="btnBrowse" Content="Browse" HorizontalAlignment="Left" Margin="474,146,0,0" VerticalAlignment="Top" Click="btnBrowse_Click"/>
+        <TextBox x:Name="tbFolderPath" HorizontalAlignment="Left" Margin="216,146,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="253"/>
+        <Button Content="Import" HorizontalAlignment="Left" Margin="256,263,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button x:Name="Clear" Content="Clear" HorizontalAlignment="Left" Margin="474,258,0,0" VerticalAlignment="Top" Width="42"/>
+
+    </Grid>
+</Window>

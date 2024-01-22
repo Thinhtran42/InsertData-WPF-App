@@ -1,0 +1,111 @@
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.exe
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.deps.json
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.runtimeconfig.json
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.pdb
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\AppThongKeDiemLmao-2.0_MarkupCompile.cache
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\AppThongKeDiemLmao-2.0_MarkupCompile.lref
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.g.resources
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.AssemblyInfo.cs
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.csproj.CopyComplete
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\refint\AppThongKeDiemLmao-2.0.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.pdb
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.genruntimeconfig.cache
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\ref\AppThongKeDiemLmao-2.0.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Admin\source\repos\AppThongKeDiemLmao-2.0\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.exe
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.deps.json
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.runtimeconfig.json
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.pdb
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.csproj.AssemblyReference.cache
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\AppThongKeDiemLmao-2.0_MarkupCompile.cache
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\AppThongKeDiemLmao-2.0_MarkupCompile.lref
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.g.resources
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.AssemblyInfoInputs.cache
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.AssemblyInfo.cs
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.csproj.CoreCompileInputs.cache
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.csproj.CopyComplete
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\refint\AppThongKeDiemLmao-2.0.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.pdb
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.genruntimeconfig.cache
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\ref\AppThongKeDiemLmao-2.0.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\CsvHelper.dll
