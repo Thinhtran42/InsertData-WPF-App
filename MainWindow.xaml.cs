@@ -155,7 +155,10 @@ namespace AppThongKeDiemLmao_2._0
                 bool isExist = IsExist();
                 List<StudentData> studentDataList = await ReadCsvFileAsync(filePath, selectedExamYear);
 
-                await InsertDataIntoDatabase(studentDataList);
+                List<StudentData> smallStudentDataList = studentDataList.Take(50000).ToList();
+                await InsertDataIntoDatabase(smallStudentDataList);
+
+                //await InsertDataIntoDatabase(studentDataList);
 
                 // Dừng đo thời gian cho phần đọc CSV
                 stopwatchCsv.Stop();
@@ -288,6 +291,17 @@ namespace AppThongKeDiemLmao_2._0
         //}
 
         // how to insert data to database faster than my code
+        public async Task InsertScore(SqlConnection conn, DataTable scores, SqlTransaction tran)
+        {
+            using (var bulkCopy = new SqlBulkCopy(conn, SqlBulkCopyOptions.Default, tran))
+            {
+                bulkCopy.DestinationTableName = "Score";
+                bulkCopy.BatchSize = 5000;
+                bulkCopy.BulkCopyTimeout = 360;
+
+                await bulkCopy.WriteToServerAsync(scores);
+            }
+        }
 
         private async Task InsertDataIntoDatabase(List<StudentData> studentDataList)
         {
@@ -299,45 +313,31 @@ namespace AppThongKeDiemLmao_2._0
 
                     using (SqlTransaction transaction = connection.BeginTransaction())
                     {
-                        using (SqlBulkCopy bulkCopy = new SqlBulkCopy(connection, SqlBulkCopyOptions.TableLock, transaction))
+                        DataTable dt = new DataTable();
+                        dt.Columns.Add("StudentId", typeof(int));
+                        dt.Columns.Add("SubjectId", typeof(int));
+                        dt.Columns.Add("Score", typeof(double));
+
+                        foreach (var student in studentDataList)
                         {
-                            bulkCopy.DestinationTableName = "Score";
-                            bulkCopy.BatchSize = 500;
-                            bulkCopy.BulkCopyTimeout = 60;
-                            DataTable dt = new DataTable();
-                            dt.Columns.Add("StudentId", typeof(int));
-                            dt.Columns.Add("SubjectId", typeof(int));
-                            dt.Columns.Add("Score", typeof(double));
+                            int schoolYearId = await GetSchoolYearId(connection, transaction, student.year);
+                            int studentId = await InsertStudent(connection, transaction, student.studentCode, schoolYearId);
 
-                            foreach (StudentData student in studentDataList)
-                            {
-                                int schoolYearId = await GetSchoolYearId(connection, transaction, student.year);
-                                int studentId = await InsertStudent(connection, transaction, student.studentCode, schoolYearId);
-
-                                double[] score = new double[9];
-                                score[0] = student.toan;
-                                score[1] = student.van;
-                                score[2] = student.ly;
-                                score[3] = student.sinh;
-                                score[4] = student.ngoaiNgu;
-                                score[5] = student.hoa;
-                                score[6] = student.su;
-                                score[7] = student.dia;
-                                score[8] = student.gdcd;
-
-                                for (int i = 1; i <= 9; i++)
-                                {
-                                    dt.Rows.Add(studentId, i, score[i - 1]);
-                                }
-
-                                Console.WriteLine("Success insert =>>> " + student.studentCode);
-                            }
-
-                            await bulkCopy.WriteToServerAsync(dt);
-                            transaction.Commit();
-                            await connection.CloseAsync();
+                            dt.Rows.Add(studentId, 1, student.toan);
+                            dt.Rows.Add(studentId, 2, student.van);
+                            dt.Rows.Add(studentId, 3, student.ly);
+                            dt.Rows.Add(studentId, 4, student.sinh);
+                            dt.Rows.Add(studentId, 5, student.ngoaiNgu);
+                            dt.Rows.Add(studentId, 6, student.hoa);
+                            dt.Rows.Add(studentId, 7, student.su);
+                            dt.Rows.Add(studentId, 8, student.dia);
+                            dt.Rows.Add(studentId, 9, student.gdcd);
                         }
+
+                        await InsertScore(connection, dt, transaction);
+                        await transaction.CommitAsync();
                     }
+                    await connection.CloseAsync();
                 }
 
                 MessageBox.Show("Dữ liệu đã được chèn thành công!");
@@ -367,43 +367,17 @@ namespace AppThongKeDiemLmao_2._0
 
         private async Task<int> InsertStudent(SqlConnection connection, SqlTransaction transaction, string studentCode, int schoolYearId)
         {
-            string insertQuery = "INSERT INTO Student (StudentCode, SchoolYearId) VALUES (@Value1, @Value2)";
+            string insertQuery = "INSERT INTO Student (StudentCode, SchoolYearId) OUTPUT INSERTED.Id VALUES (@Value1, @Value2)";
             using (SqlCommand cmd = new SqlCommand(insertQuery, connection, transaction))
             {
                 cmd.Parameters.AddWithValue("@Value1", studentCode);
                 cmd.Parameters.AddWithValue("@Value2", schoolYearId);
 
-                int rowsAffected = cmd.ExecuteNonQuery();
+                // Sử dụng ExecuteScalar để lấy giá trị Id ngay khi thêm sinh viên
+                object studentIdResult = await cmd.ExecuteScalarAsync();
 
-                if (rowsAffected > 0)
-                {
-                    string selectStudentIdQuery = "SELECT Id FROM Student WHERE StudentCode = @Value";
-                    using (SqlCommand selectCmd = new SqlCommand(selectStudentIdQuery, connection, transaction))
-                    {
-                        selectCmd.Parameters.AddWithValue("@Value", studentCode);
-                        object studentIdResult = selectCmd.ExecuteScalar();
-                        return Convert.ToInt32(studentIdResult);
-                    }
-                }
-                return 0;
-            }
-        }
-
-        private void InsertScore(SqlConnection connection, SqlTransaction transaction, int studentId, int subjectId, double score)
-        {
-            string insertQuery = "INSERT INTO Score (StudentId, SubjectId, Score) VALUES (@Value1, @Value2, @Value3)";
-            using (SqlCommand cmd = new SqlCommand(insertQuery, connection, transaction))
-            {
-                cmd.Parameters.AddWithValue("@Value1", studentId);
-                cmd.Parameters.AddWithValue("@Value2", subjectId);
-                cmd.Parameters.AddWithValue("@Value3", score);
-
-                int rowsAffected = cmd.ExecuteNonQuery();
-
-                if (rowsAffected == 0)
-                {
-                    throw new Exception("Không thể chèn điểm cho sinh viên.");
-                }
+                // Chuyển đổi giá trị Id và trả về
+                return Convert.ToInt32(studentIdResult);
             }
         }
 

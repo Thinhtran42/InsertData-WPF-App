@@ -109,3 +109,4 @@ C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\AppT
 C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.genruntimeconfig.cache
 C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\ref\AppThongKeDiemLmao-2.0.dll
 C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\bin\Debug\net8.0-windows\CsvHelper.dll
+C:\Users\Thinh Tran\Desktop\AppThongKeDiemLmao-2.0\obj\Debug\net8.0-windows\AppThongKeDiemLmao-2.0.sourcelink.json
